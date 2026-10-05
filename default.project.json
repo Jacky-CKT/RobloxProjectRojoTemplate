@@ -1,0 +1,27 @@
+{
+  "name": "RobloxAIDemoProject_Clean",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "AIDemo": {
+        "$path": "src/ReplicatedStorage/AIDemo"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AIDemo": {
+        "$path": "src/ServerScriptService/AIDemo"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "AIDemo": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/AIDemo"
+        }
+      }
+    }
+  }
+}
