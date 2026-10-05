@@ -28,9 +28,3 @@ Point those `$path` entries at directories that exist before syncing. Shared mod
    ```
 
 3. In Studio, open the Rojo plugin and connect to the session.
-
-To build a place file without Studio:
-
-```bash
-rojo build -o RobloxAIDemoProject_Clean.rbxlx
-```
