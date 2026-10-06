@@ -4,23 +4,17 @@
     "$className": "DataModel",
     "ReplicatedStorage": {
       "$className": "ReplicatedStorage",
-      "AIDemo": {
-        "$path": "src/ReplicatedStorage/AIDemo"
-      }
+      "$path": "src/ReplicatedStorage"
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "AIDemo": {
-        "$path": "src/ServerScriptService/AIDemo"
-      }
+      "$path": "src/ServerScriptService"
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterPlayerScripts": {
         "$className": "StarterPlayerScripts",
-        "AIDemo": {
-          "$path": "src/StarterPlayer/StarterPlayerScripts/AIDemo"
-        }
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
       }
     }
   }
