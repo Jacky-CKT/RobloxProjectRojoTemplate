@@ -1,4 +1,4 @@
-# RobloxAIDemoProject_Clean
+# Roblox place
 
 A [Rojo](https://rojo.space/) project for a Roblox Studio place. The source tree under `src` is empty: service directories only, with no scripts or assets.
 
@@ -10,13 +10,7 @@ A [Rojo](https://rojo.space/) project for a Roblox Studio place. The source tree
 | `src/ServerScriptService` | `ServerScriptService` |
 | `src/StarterPlayer/StarterPlayerScripts` | `StarterPlayer.StarterPlayerScripts` |
 
-`default.project.json` still maps three `AIDemo` paths that are no longer on disk:
-
-- `src/ReplicatedStorage/AIDemo` → `ReplicatedStorage.AIDemo`
-- `src/ServerScriptService/AIDemo` → `ServerScriptService.AIDemo`
-- `src/StarterPlayer/StarterPlayerScripts/AIDemo` → `StarterPlayer.StarterPlayerScripts.AIDemo`
-
-Point those `$path` entries at directories that exist before syncing. Shared modules go in ReplicatedStorage, server scripts in ServerScriptService, and client scripts in StarterPlayerScripts.
+`default.project.json` maps each directory on disk into the matching service. Shared modules go in ReplicatedStorage, server scripts in ServerScriptService, and client scripts in StarterPlayerScripts.
 
 ## Sync with Studio
 
