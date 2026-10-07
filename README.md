@@ -12,7 +12,7 @@ Scripts for this place live in `src` and sync into Roblox Studio with [Rojo](htt
 | `src/ServerScriptService` | `ServerScriptService` |
 | `src/StarterPlayer/StarterPlayerScripts` | `StarterPlayer.StarterPlayerScripts` |
 
-Shared modules go in ReplicatedStorage, server scripts in ServerScriptService, and client scripts in StarterPlayerScripts. Those folders do not contain any scripts yet.
+Shared modules go in ReplicatedStorage, server scripts in ServerScriptService, and client scripts in StarterPlayerScripts. Each folder starts with one script: `Shared` (ModuleScript), `Server` (Script), and `Client` (LocalScript). Rojo reads the filename suffix: `.lua` is a ModuleScript, `.server.lua` is a Script, and `.client.lua` is a LocalScript.
 
 Connecting replaces the contents of those three Studio locations with whatever is in `src`. Open a place you are ready to change.
 
